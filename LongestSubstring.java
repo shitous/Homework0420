@@ -32,10 +32,9 @@ public class LongestSubstring {
 			
 			
 		}
-		System.out.println(longestSub);
 		return longestSub.length();
     }
-	 public static void main(String[] args) {
+	public static void main(String[] args) {
 		 LongestSubstring test = new LongestSubstring();
 	        System.out.println(test.lengthOfLongestSubstring("abcdefabcdefghijkab"));
 	    }
